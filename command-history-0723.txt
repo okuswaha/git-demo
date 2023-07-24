@@ -1,0 +1,58 @@
+ 443  mkdir git-demo
+  444  cd git-demo/
+  445  git init
+  446  git status
+  447  code .
+  448  git status
+  449  git add .
+  450  git status
+  451  git commit -m "initial commit - creating a HelloWorld class"
+  452  git log --pretty=oneline
+  453  git status
+  454  git add .
+  455  git commit -m "creating products skeleton"
+  456  git log --pretty=oneline
+  457  git status
+  458  git add .
+  459  git commit -m "creating shopping cart skeleton"
+  460  git log --pretty=oneline
+  461  git status
+  462  git add .
+  463  git status
+  464  git commit -m "creating checkout skeleton"
+  465  git status
+  466  git log --pretty=oneline
+  467  git branch dev
+  468  git checkout dev
+  469  git status
+  470  git add .
+  471  git status
+  472  git status
+  473  git commit -m "created a new product"
+  474  git status
+  475  git add .
+  476  git commit -m "adding new product properties"
+  477  git checkout master
+  478  git add .
+  479  git commit -m "creating customer skeleton"
+  480  git add .
+  481  git commit -m "creating address skeleton"
+  482  git merge dev
+  483  git status
+  484  git status
+  485  git checkout -b implement-shopping
+  486  git status
+  487  git status
+  488  git add .
+  489  git commit -m "implemented Shopping Cart"
+  490  git status
+  491  git status
+  492  git status
+  493  git add .
+  494  git status
+  495  git commit -m "added new properties to Shopping Cart"
+  496  git status
+  497  git checkout master
+  498  git merge implement-shopping
+  499  git status
+
